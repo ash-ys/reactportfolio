@@ -10,12 +10,12 @@ function App() {
     <div className="app">
       <Topbar/>
      <div className="sections">
-     </div>
-       <Intro/>
+     <Intro/>
        <Portfolio/>
        <Works/>
        <Testimonials/>
        <Contact/>
+     </div>  
     </div>
   );
 }
