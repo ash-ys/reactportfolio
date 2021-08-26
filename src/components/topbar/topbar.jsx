@@ -1,15 +1,26 @@
 import "./topbar.scss"
+import {Face, Mail} from "@material-ui"
 
 export default function topbar() {
     return (
         <div className = "topbar">
             <div className="wrapper">
                 <div className="left">
-                 <a href="#intro">topbar </a>
+                 <a href="#intro" className="logo">genius. </a>
+                 <div className="itemContainer">
+                     <Face/>
+                     <span>+977 9860500</span>
+
+                 </div>
+                 <div className="itemContainer">
+                     <Mail/>
+                     <span>Awagle7@mail.com</span>
+
+                 </div>
                 </div>
-                <h1>hello</h1>
+          
                 <div className="right">
-this is right
+
                 </div>
             </div>
         </div>
