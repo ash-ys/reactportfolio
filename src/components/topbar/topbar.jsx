@@ -1,6 +1,5 @@
 import "./topbar.scss"
 import {Face, Mail} from "@material-ui"
-
 export default function topbar() {
     return (
         <div className = "topbar">
