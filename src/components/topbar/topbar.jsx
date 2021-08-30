@@ -7,12 +7,12 @@ export default function topbar() {
                 <div className="left">
                  <a href="#intro" className="logo">genius. </a>
                  <div className="itemContainer">
-                     <Face/>
+                     <Face className="icon"/>
                      <span>+977 9860500</span>
 
                  </div>
                  <div className="itemContainer">
-                     <Mail/>
+                     <Mail className="icon"/>
                      <span>Awagle7@mail.com</span>
 
                  </div>
