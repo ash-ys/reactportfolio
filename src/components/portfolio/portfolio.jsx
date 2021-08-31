@@ -1,3 +1,4 @@
+import Portfoliolist from "../portfoliolist/Portfoliolist";
 import "./portfolio.scss"
 
 export default function portfolio() {
@@ -22,12 +23,14 @@ export default function portfolio() {
             id:"content",
             title:"Content",
         },
-    ]
+    ];
     return (
         <div className="portfolio" id ="portfolio">
             <h1>Portfolio</h1>
             <ul>
-                
+                {list.map((item)=>(
+                    <Portfoliolist/>
+                ))}
             </ul>
             <div className="container">
                 <div className="item">
