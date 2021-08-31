@@ -16,6 +16,26 @@ export default function portfolio() {
                     <img src="assets/Savings.svg" alt="" />
                     <h3>Banking App</h3>
                 </div>
+                <div className="item">
+                    <img src="assets/Savings.svg" alt="" />
+                    <h3>Banking App</h3>
+                </div>
+                <div className="item">
+                    <img src="assets/Savings.svg" alt="" />
+                    <h3>Banking App</h3>
+                </div>
+                <div className="item">
+                    <img src="assets/Savings.svg" alt="" />
+                    <h3>Banking App</h3>
+                </div>
+                <div className="item">
+                    <img src="assets/Savings.svg" alt="" />
+                    <h3>Banking App</h3>
+                </div>
+                <div className="item">
+                    <img src="assets/Savings.svg" alt="" />
+                    <h3>Banking App</h3>
+                </div>
             </div>
         </div>
     )
