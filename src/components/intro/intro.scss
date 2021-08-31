@@ -7,14 +7,14 @@
     overflow: hidden;
 
     .imgContainer {
-      width: 700px;
-      height: 700px;
-      background-color: #4B6587;
+      width: 500px;
+      height: 500px;
+      background-color: #4b6587;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
       justify-content: center;
-      float: right;
+      float: left;
 
       img {
         height: 95%;
@@ -43,7 +43,19 @@
         font-size: 30px;
         span {
           font-size: inherit;
-          color: #4B6587;
+          color: #4b6587;
+        }
+        .ityped-cursor {
+          animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
         }
       }
     }
