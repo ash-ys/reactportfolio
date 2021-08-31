@@ -12,10 +12,10 @@ export default function intro() {
                 <div className="wrapper">
                     <h2>Hello there, I'm</h2>
                     <h1>Ashish Wagle</h1>
-                    <h3>Freelance <span></span></h3>
+                    <h3>Freelance <span> Designer</span></h3>
                 </div>
-                <a href="#portfolio"></a>
-                <img src="assets/down.png" alt="" />
+                <a href="#portfolio">
+                <img src="assets/down.png" alt="" /></a>
             </div>
         </div>
     )
