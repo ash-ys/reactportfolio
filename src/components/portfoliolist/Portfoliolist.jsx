@@ -1,6 +1,6 @@
-import "./portfolio.scss"
+import "./portfoliolist.scss"
 
-export default function Portfoliolist(title) {
+export default function Portfoliolist({title}) {
     return (
         <li className="portfoliolist">
             {title}

@@ -29,7 +29,7 @@ export default function portfolio() {
             <h1>Portfolio</h1>
             <ul>
                 {list.map((item)=>(
-                    <Portfoliolist title={item.title}/>
+                    <Portfoliolist title={item.title }/>
                 ))}
             </ul>
             <div className="container">
