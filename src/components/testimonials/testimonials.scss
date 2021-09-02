@@ -8,6 +8,10 @@
   h1 {
     font-size: 50px;
     color: $mainColor;
+
+    @include mobile {
+      font-size: 20px;
+    }
   }
 
   .container {
@@ -16,6 +20,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @include mobile {
+      flex-direction: column;
+    }
 
     .card {
       width: 250px;
@@ -26,6 +33,9 @@
       flex-direction: column;
       justify-content: space-around;
       padding: 20px;
+      @include mobile {
+        height: 180px;
+      }
 
       .top {
         display: flex;
@@ -44,6 +54,11 @@
             border-radius: 50%;
             object-fit: cover;
             margin: 0 30px;
+
+            @include mobile {
+              width: 40px;
+              height: 40px;
+            }
           }
         }
       }
