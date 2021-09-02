@@ -1,6 +1,11 @@
+@import "../../global.scss";
 .intro {
   background-color: white;
   display: flex;
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
 
   .left {
     flex: 0.5;
