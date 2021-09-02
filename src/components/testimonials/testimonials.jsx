@@ -8,8 +8,8 @@ export default function testimonials() {
                 <div className="card">
                     <div className="top">
                         <img src="assets/right-arrow.png"className="left" alt="" />
-                        <img src="assets/bank.svg" alt="" />
-                        <img src="assets/youtube.png" alt="" />
+                        <img src="assets/bank.svg" className="user" alt="" />
+                        <img src="assets/youtube.png" className="right" alt="" />
                     </div>
                     <div className="center">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
