@@ -16,8 +16,6 @@ export default function works() {
                                     adipisicing elit. Maiores et nisi 
                                     qui magni inventore aliquid hic vel
                                     perferendis quia quisquam laboriosam,
-                                    esse pariatur eos placeat ullam
-                                    minus incidunt voluptatum laborum.
                                     </p>
                                     <span>Projects</span>
                             </div>
