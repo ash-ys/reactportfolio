@@ -20,7 +20,9 @@ export default function works() {
                                     <span>Projects</span>
                             </div>
                         </div>
-                        <div className="right"></div>
+                        <div className="right">
+                            <img src="assets/resume.svg" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
