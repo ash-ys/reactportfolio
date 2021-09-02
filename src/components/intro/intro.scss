@@ -20,9 +20,16 @@
       align-items: flex-end;
       justify-content: center;
       float: left;
+      @include mobile {
+        align-items: flex-end;
+      }
 
       img {
         height: 95%;
+
+        @include mobile {
+          height: 100%;
+        }
       }
     }
   }
@@ -37,15 +44,28 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+
+      @include mobile {
+        padding-left: 0;
+        align-items: center;
+      }
       h1 {
         font-size: 60px;
         margin: 10px 0;
+
+        @include mobile {
+          font-size: 40px;
+        }
       }
       h2 {
         font-size: 35px;
       }
       h3 {
         font-size: 30px;
+
+        @include mobile {
+          font-size: 20px;
+        }
         span {
           font-size: inherit;
           color: #4b6587;
