@@ -11,11 +11,11 @@ export default function works() {
                                 <div className="imgContainer">
                                     <img src="assets/mobile.png" alt="" />
                                 </div>
-                                <h2>Title</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Maiores et nisi 
-                                    qui magni inventore aliquid hic vel
-                                    perferendis quia quisquam laboriosam,
+                                <h2>Chat App</h2>
+                                <p>Learned Sockets, Rest APIs,
+                                     Sending Images,
+                                     React Hooks, Props, and CSS
+                                     by building and deploying Chat app.
                                     </p>
                                     <span>Projects</span>
                             </div>
