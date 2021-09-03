@@ -12,10 +12,10 @@ export default function testimonials() {
                         <img src="assets/youtube.png" className="right" alt="" />
                     </div>
                     <div className="center">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Working with him made me realize I have much more to learn.
                     </div>
                     <div className="bottom">
-                        <h3>Saugat</h3>
+                        <h3>Ram</h3>
                         <h4>CEO of Lalim</h4>
                     </div>
                     </div>       
