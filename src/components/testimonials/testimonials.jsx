@@ -12,7 +12,8 @@ export default function testimonials() {
                         <img src="assets/youtube.png" className="right" alt="" />
                     </div>
                     <div className="center">
-                        Working with him made me realize I have much more to learn.
+                        Ashish helped me create an web site for my book.
+                        His approach in content creation is very good and simple.
                     </div>
                     <div className="bottom">
                         <h3>Ram</h3>
